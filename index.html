@@ -1,8 +1,137 @@
-<html>
-	<head>
- 		<title>Personal Website Test</title>
- 	</head>
- 	<body>
- 		This is my personal website!
- 	</body>
- </html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300;400;600&display=swap" rel="stylesheet">
+        
+        <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        
+        <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            min-height: 100vh; 
+            background-color: #f7e1d7;
+            margin: 0;
+            font-family: "Commissioner", sans-serif; 
+        }
+        
+
+        h1 {
+            font-size: 16vh;  
+
+        }
+
+        sub {
+            font-size: 4vh;
+            display: block;
+            margin-bottom: 2vh;
+        }
+
+        article {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0; 
+        }
+
+        a, a:visited {
+            color: #191d32;
+            text-decoration: none;
+            font-size: 4vh;
+        }
+
+        a:visited:hover, a:hover {
+            color: #282f44;
+        }
+
+
+        p {
+            font-size: 16px;
+            line-height: 1.8;
+
+            margin: 15px auto;
+            text-align: justify;
+        }
+
+        section {
+            width: 100%;
+            max-width: 100%;
+            margin: 15px 0;
+        }
+
+        figure {
+            position: relative;
+            width: 100%;
+            margin: 3vh 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+        }
+
+        figure > img {
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        section:nth-of-type(1) figure > img {
+            width: 80vw;
+            height: 50vh;
+        }
+
+        section:nth-of-type(2) figure > img {
+            width: 30vw;
+            height: 35vh;
+        }
+
+        section:nth-of-type(3) figure > img {
+            width: 20vw;
+            height: 40vh;
+
+        }
+
+        
+        </style>
+    </head>
+
+    <body>
+     
+        <article>
+            <h1>Charlotte's Journal</h1><h2><a href="index_zh.html" style="font-size: 3vh; opacity: 0.7; padding:1px;">繁中</a></h2>
+            <sub>since 2026</sub>
+            <p><a href="hiking.html">Hiking </a> •┈┈┈┈┈୨୧┈┈┈┈┈•<a href="lil.html">Book club</a> •┈┈┈┈┈୨୧┈┈┈┈┈•<a href="lit.html">lil treehole</a>
+          
+      
+            <section>
+                <figure>
+                    <img src="img/cover.JPG" alt="Cover"/>
+                    <figcaption> 攝於奇萊大門牙附近 </figcaption>
+                </figure>
+            </section>
+            
+            <section>
+                <p>Hi to whoever visits this website, I'm Charlotte. I'm heading to the third year studying in NTHU, majoring in foreign language and literature. At the same time, I find it hard to figure things out, or to document those phenomenal moments in my life. I mean, in this time of the world, being a 21 year old girl is hard and lost (I know it’s pretty cliche but it’s true). How to live a joyful life, what to do, what to study, the practice of love, and more on. I guess this website is a place for me to record those things. </p>
+                <figure>
+                    <img src="img/profile.jpg" alt="Profile"/> 
+                </figure>
+            </section>
+            
+            <section>
+                <p>I have one cat named Molly茉莉，She is the cutest cat with the most attitude in this world. I love to travel, hike and read. Seeing the world through these lenses is such a blessing. </p>
+
+                <figure>
+                    <img src="img/cat.jpg" alt="Cat"/> 
+                </figure>
+                <p>I’ve been hiking for almost 2 years, and river-tracing sometimes. I gain happiness, see the beauty that’s hard to articulate while dancing in the forest or standing on a rock in the river. My college life in the mountaineering club in NTHU has been a great adventure, and it’s going to be more fun! I realised that I have to write down all the thoughts I had while and after hiking recently because of my awful memory.</p>
+            </section>
+        </article>
+    </body>
+</html>
